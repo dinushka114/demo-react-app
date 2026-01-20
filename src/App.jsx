@@ -10,10 +10,10 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element= {<HomePage />} />
-        <Route path="/pricing" element= {<PricingPage />} />
-        <Route path="/signin" element= {<SignIn />} />
-        <Route path="/signup" element= {<SignUp />} />
+        <Route path="/demo-react-app" element= {<HomePage />} />
+        <Route path="/demo-react-app/pricing" element= {<PricingPage />} />
+        <Route path="/demo-react-app/signin" element= {<SignIn />} />
+        <Route path="/demo-react-app/signup" element= {<SignUp />} />
       </Routes>
     </>
   )
